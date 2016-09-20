@@ -25,7 +25,8 @@ i. This architecture is inspired from **VGG-16 Net** *[Simonyan and Zisserman, 2
   19. Fully Connected Layer with 256 hidden neurons.  
   20. Batch Normalization. 
   21. Dropout of 50%.
-  22. Fully Connected Layer giving the scores for 10 classes.  
+  22. Fully Connected Layer giving the scores for 10 classes. 
+  23. Softmax Layer.  
 
 # Performance  
 This architecture was able to achieve best validation accuracy of 82.7% and test accuracy of 81.1%.  
@@ -55,6 +56,7 @@ ii. This architecture is of form:
   21. Batch Normalization.   
   22. Dropout of 50%.    
   23. Fully Connected Layer giving the scores for 10 classes.  
+  24. Softmax Layer.  
 
 # Performance
 This architecture was able to achieve best validation accuracy of 79.5% and test accuracy of 77.6%.  
