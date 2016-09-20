@@ -63,6 +63,16 @@ This architecture was able to achieve best validation accuracy of 79.5% and test
 
 # Improvement  
 No deep learning libraries were used, more better performance can be achieved by using deep learning libraries and fine-tuning a pre-trained network, using even more deep convolutional neural networks, using data augmentation etc.  
+
+# Data  
+download the CIFAR-10 dataset  
+```
+cd cs231n/datasets  
+./get_datasets.sh
+```  
+Compile the Cython extension  
+`python setup.py build_ext --inplace`
   
 # Acknowledgement  
 This project uses course materials from [CS231n](http://cs231n.stanford.edu/).  
+[The CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
